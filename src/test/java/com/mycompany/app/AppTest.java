@@ -35,6 +35,7 @@ public class AppTest
     public void testApp()
     {
         suite().run(new TestResult());
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         assertTrue( true );
     }
 }
