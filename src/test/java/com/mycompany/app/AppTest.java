@@ -32,10 +32,14 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        suite().run(new TestResult());
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        assertTrue( true );
+//    public void testApp()
+//    {
+//        assertTrue( true );
+//    }
+
+
+    public void test() {
+        App a = new App();
+        a.main(null);
     }
 }
